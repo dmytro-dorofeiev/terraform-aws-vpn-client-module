@@ -1,5 +1,4 @@
 resource "aws_iam_saml_provider" "okta_provider" {
-  count                  = var.use_okta ? 1 : 0
   name                   = "Okta-VPN"
   saml_metadata_document = file("${path.module}/files/saml-metadata.xml")
 }

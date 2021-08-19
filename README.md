@@ -39,6 +39,7 @@ output "client_vpn_endpoint_id" {
 }
 ```
 
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -100,3 +101,4 @@ No modules.
 | <a name="output_client_vpn_endpoint_arn"></a> [client\_vpn\_endpoint\_arn](#output\_client\_vpn\_endpoint\_arn) | The ARN of the Client VPN endpoint. |
 | <a name="output_client_vpn_endpoint_id"></a> [client\_vpn\_endpoint\_id](#output\_client\_vpn\_endpoint\_id) | The ID of the Client VPN endpoint. |
 | <a name="output_okta_provider_arn"></a> [okta\_provider\_arn](#output\_okta\_provider\_arn) | The ID of the Client VPN endpoint. |
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
