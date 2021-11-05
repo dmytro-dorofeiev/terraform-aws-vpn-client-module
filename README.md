@@ -25,7 +25,7 @@ data "aws_subnet_ids" "public" {
 }
 
 module "vpn-client" {
-  source = "../modules/terraform-aws-vpn-client-module"
+  source = "git::https://github.com/dmytro-dorofeiev/modules/terraform-aws-vpn-client-module"
   cidr = var.vpn_cidr
   auth_target_network_cidr = var.target_network_cidr
   name = var.vpn_name
